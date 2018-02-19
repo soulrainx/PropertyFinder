@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Property Finder</string>
+
+
+    <!-- Property List Flow -->
+    <string name="property_list_price_txt">Price: %1$s </string>
+    <string name="property_list_title">PropertyFinder</string>
+    <string name="title_activity_property_list">PropertyFinder</string>
+    <string name="action_sort">Sort</string>
+    <string name="loading">loading</string>
+    <string name="fragment_sort_price_descending">Price Descending</string>
+    <string name="fragment_sort_price_ascending">Price Ascending</string>
+    <string name="fragment_sort_beds_descending">Beds Descending</string>
+    <string name="fragment_sort_beds_ascending">Beds Ascending</string>
+    <string name="sort_selection">Select Sort type</string>
+
+
+    <!-- Plurals List Flow -->
+    <plurals name="property_list_numberOfBedrooms">
+        <item quantity="one">%d Bedroom.</item>
+        <item quantity="other">%d Bedrooms.</item>
+    </plurals>
+
+    <plurals name="property_list_numberOfBathrooms">
+        <item quantity="one">%d Bathroom.</item>
+        <item quantity="other">%d Bathrooms.</item>
+    </plurals>
+</resources>

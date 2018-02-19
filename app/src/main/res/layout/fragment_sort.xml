@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select type of Sort " />
+
+    <RadioGroup
+        android:id="@+id/fragment_sort_radiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text">
+
+        <RadioButton
+            android:id="@+id/fragment_sort_pd"
+            style="@style/PropertySortElectionTextView"
+            android:text="@string/fragment_sort_price_descending" />
+
+        <RadioButton
+            android:id="@+id/fragment_sort_pa"
+            style="@style/PropertySortElectionTextView"
+            android:text="@string/fragment_sort_price_ascending" />
+
+        <RadioButton
+            android:id="@+id/fragment_sort_bd"
+            style="@style/PropertySortElectionTextView"
+            android:text="@string/fragment_sort_beds_descending" />
+
+        <RadioButton
+            android:id="@+id/fragment_sort_ba"
+            style="@style/PropertySortElectionTextView"
+            android:text="@string/fragment_sort_beds_ascending" />
+
+    </RadioGroup>
+
+
+</LinearLayout>
